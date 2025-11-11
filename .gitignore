@@ -1,0 +1,14 @@
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+firmware/.pio/
+.DS_Store
+*.elf
+*.bin
+*.hex
+
+# Local secrets (DO NOT COMMIT)
+firmware/src/config.h
