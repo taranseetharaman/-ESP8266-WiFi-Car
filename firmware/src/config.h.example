@@ -1,0 +1,7 @@
+#pragma once
+// ===== Access Point Credentials (placeholders) =====
+// Copy this file to `config.h` and put your real values there (do NOT commit).
+
+#define AP_SSID "YOUR_AP_NAME"         // e.g. "wificar_sabi"
+#define AP_PASS "YOUR_AP_PASSWORD"     // min 8 chars, e.g. "12345678"
+#define AP_HOSTNAME "ESP8266-Car"      // mDNS/OTA hostname (optional)
